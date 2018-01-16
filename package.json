@@ -1,0 +1,44 @@
+{
+  "name": "grunt-setup",
+  "version": "0.1.0",
+  "description": "Grunt setup that I use",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "Grunt setup"
+  ],
+  "author": "Andrew Rioux",
+  "license": "Apache-2.0",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "@types/node": "^8.5.6",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-jest": "^0.4.0",
+    "grunt-ts": "^6.0.0-beta.17",
+    "grunt-tslint": "^5.0.1",
+    "jest": "^22.0.4",
+    "jest-cli": "^22.0.4",
+    "ts-jest": "^22.0.0",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
+  },
+  "jest": {
+    "transform": {},
+    "testRegex": "(/test/.*)(test|spec)\\.(js|ts)$",
+    "moduleFileExtension": [
+      "ts",
+      "js"
+    ]
+  }
+}
