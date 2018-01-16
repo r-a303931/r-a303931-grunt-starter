@@ -2,7 +2,7 @@
   "name": "grunt-setup",
   "version": "0.1.0",
   "description": "Grunt setup that I use",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "grunt test"
   },
